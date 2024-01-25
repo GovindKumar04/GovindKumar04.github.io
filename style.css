@@ -1,0 +1,331 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #111;
+    color: rgb(231, 219, 219);
+    margin: 0%;
+    padding: 0%;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    --tw-bg-opacity: 1;
+    background-color: #001233;
+    /* width: 430px; */
+    /* height: fit-content; */
+
+}
+
+.screen_mode {
+    display: flex;
+    position: fixed;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(231, 219, 219);
+    border-radius: 25%/50%;
+    right: 60px;
+    top: 70px;
+    flex-shrink: 1;
+}
+
+.mode_icon {
+    border-radius: 50%;
+    transition: transform, 1s;
+}
+
+/* Css for header */
+header{
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    height: 4rem;
+    width: 98rem;
+    background-color: #333232;
+    background: #e7017a linear-gradient(91.78deg, #e7017a 2.57%, #df4a1f 96.33%);
+    /* background: #073b4c linear-gradient(91.78deg, #073b4c 2.57%, #06d6a0 96.33%) */
+}
+
+.light{
+    background: #073b4c linear-gradient(91.78deg, #073b4c 2.57%, #06d6a0 96.33%)
+}
+.dark{
+    background: #e7017a linear-gradient(91.78deg, #e7017a 2.57%, #df4a1f 96.33%);
+}
+
+nav a {
+    font-size: larger;
+    font-weight: 300;
+    margin-left: 16rem;
+}
+
+.last_three_navs {
+    margin-left: 6rem;
+}
+
+/*  Css for headers */
+h1 {
+    font-size: xx-large;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+h1 span,
+h2 span,
+main span {
+    color: #e7017a;
+}
+
+.personal_info_h2 {
+    margin: 0px;
+    text-align: left;
+}
+
+/* Css for main section */
+main section {
+    display: flex;
+    margin-top: 6rem;
+    line-height: 2;
+    flex-shrink: 1;
+}
+
+.govind_profile_pic {
+    height: 350px;
+    width: 260px;
+    border-radius: 15%;
+}
+
+main section div:nth-of-type(2) {
+    margin: 60px;
+
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.intro b {
+    font-size: 2.6rem;
+}
+
+#get_in_touch .contact_section {
+    display: inline-block;
+}
+
+#get_in_touch .contact_section:nth-of-type(1) {
+    position: relative;
+    bottom: 100px;
+    line-height: 2;
+}
+
+
+/* skills dse ction css */
+
+ul li {
+    line-height: 1.5;
+}
+
+/*               portfolio css */
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.portfolio div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.img1 {
+    background: url("Images/snake.png");
+    background-repeat: round;
+    width: 250px ;
+    height: 250px;
+}
+
+.img2 {
+    background-image: url("Images/pong.png");
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+}
+
+.img3 {
+    background-image: url("Images/turtle_cross.png");
+    background-repeat: round;
+    width: 250px;
+    height: 250px;
+}
+
+.portfolio_link_text {
+    color:#e7017a;
+    font-weight: 550;
+}
+
+input {
+    border-radius: 10px;
+    border-radius: 14px 14px;
+    text-decoration: none;
+    height: 30px;
+    background-color: #001d3d;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* font-size: larger; */
+}
+
+input[placeholder="Your Subject"],
+#email {
+    width: 470px;
+}
+
+input {
+    color: #d1d6df;
+    outline: none;
+    border: none;
+    padding: 6px;
+    font-size: large;
+    font-weight: 520;
+    width: 210px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    background-color: #001d3d;
+    height: 150px;
+    width: 211vh;
+    margin: 0px;
+    flex-shrink: 1;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+}
+
+input:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
+.name_input:nth-of-type(2) {
+    margin-left: 30px;
+}
+
+input[placeholder="Your Message"] {
+    height: 100px;
+    width: 470px;
+}
+
+.white::placeholder {
+    color: #333232;
+}
+
+.black::placeholder {
+    color: #d1d6df;
+}
+
+button {
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px 20px;
+    border: 0px;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-left: 170px;
+}
+
+a {
+    text-decoration: none;
+    color: #d1d6df;
+}
+
+b span:hover {
+    text-shadow: 2px 2px 2px #d1d6df;
+}
+
+.white_photo {
+    /* transform: translateY(-2px); */
+    box-shadow: -5px 7px 10px #006d77;
+}
+
+.photo {
+    /* transform: translateY(-2px); */
+    box-shadow: -5px 7px 10px #e7017a;
+}
+
+nav a:hover {
+    color: #001d3d;
+}
+
+.green_portfolio div:hover {
+    box-shadow: -5px 7px 10px #006d77;
+    transform: translate(6px, -4px);
+}
+
+.white_portfolio div:hover {
+    transform: translate(6px, -4px);
+    box-shadow: -5px 7px 10px #e7017a;
+}
+
+.checkbtn {
+    font-size: 50px;
+}
+
+.nav_icon {
+    width: 28px;
+    height: 28px;
+    margin-left: 750px;
+    display: none;
+}
+.p_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+@media only screen and (max-width: 431px) {
+    nav {
+        display: none;
+    }
+    body{
+        width: 430px;
+        justify-content: center;
+       
+    }
+    .govind_profile_pic{
+        margin-left: 80px;
+        margin-left: 170px;
+        margin-top: 40px;
+        width: 350px;
+        height: 420px;
+    }
+    main section{
+        flex-direction: column;
+        
+    }
+    .p_section{
+        flex-direction: column; 
+    }
+    .portfolio{
+        flex-direction: column;
+    }
+    .portfolio div{
+        margin-bottom: 20px;
+    }
+}
+

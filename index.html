@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <div class="screen_mode">
+            <img class="mode_icon" src="Icons/dark_mode.png" alt="">
+        </div>
+        <header class="dark light">
+            <nav>
+                <a href="#home">Home</a>
+                <a class="last_three_navs" href="#about_me">About</a>
+                <a class="last_three_navs" href="#portfolio">Portfolio</a>
+                <a class="last_three_navs" href="#contact">Contact Me</a>
+                <img class="nav_icon" src="Icons/nav.png" alt="">
+            </nav>
+        </header>
+
+        <main>
+            <!-- Add a brief introduction here -->
+            <section id="home">
+                <div class="image">
+                    <img src="Images/govind_profile_pic.jpg" class="photo white_photo govind_profile_pic" alt="">
+                </div>
+                <div class="intro">
+                    <p>HELLO I'M <br><b><span class="modeChange">GOVIND KUMAR</span></b><br>
+                        Web Designer and a Software Devloper</p>
+                    I'm a bihar based web designer and a full stack devloper <br>
+                    focused on making clean & user friendly experince. <br>
+                    I am focused on building excellent software and that
+                    improves the lives of those around me.</p>
+                </div>
+            </section>
+        </main>
+        <section id="about_me">
+            <!-- Add your personal information and background here -->
+            <h1>ABOUT <span class="modeChange">ME</span></h1>
+            <div>
+                <h2 class="personal_info_h2">PERSONAL INFOS</h2>
+                <div class="p_section">
+
+                    <div>
+                        <div>First Name: <b>Govind</b></div>
+                        <div>Age: <b>19</b></div>
+                        <div>Freelancer: <b>Available</b></div>
+                        <div>Phone: <b>8102558417</b></div>
+                        <div>Language: <b>English,Hindi,German A1 level</b></div>
+                    </div>
+                    <div>
+                        <div>Last Name: <b>Kumar</b></div>
+                        <div>Nationality: <b>India</b></div>
+                        <div>Current Address: <b>Phagwara,Punjab</b></div>
+                        <div>Email: <b>myselfgovind116@gmail.com</b></div>
+                    </div>
+                </div>
+                <div>
+                    <!-- Add a contact form or contact information here -->
+                    <h2>MY <span class="modeChange">SKILLS</span> </h2>
+                    <ul>
+                        <li>DSA</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVA SCRIPT</li>
+                        <li>NODE JS</li>
+                        <li>MONGO DB</li>
+                        <li>REACT JS</li>
+                        <li>ANGULAR</li>
+                        <li>C++</li>
+                        <li>PYTHON</li>
+                        <li>JAVA</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h2>EDUCATION AND <span class="modeChange">EXPERINCE</span></h2>
+                    <div>
+                        <ul>
+                            <div>
+                                <li><span>DIPLOMA</span> in Mechanical Engineering from IIMT group of colleges,
+                                    Greater
+                                    Noida</li>
+                            </div>
+                            <div>
+                                <li><span>GRADUATION</span> in Computer Science Engineering from Lovely Professional
+                                    University, Phagwara</li>
+                            </div>
+                            <div>
+                                <li><span>PYTHON</span> Experince of making game with turtle module in python</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>My <span class="modeChange" id="portfolio">Portfolio</span></h1>
+            <div class="portfolio green_portfolio white_portfolio">
+
+                <div class="img1">
+
+                    <a href="https://github.com/GovindKumar04/snake-game">
+                        <p class="portfolio_link_text">Snake</p>
+                        <p class="portfolio_link_text">check out</p>
+                    </a>
+                </div>
+                <div class="img2">
+                    <a href="https://github.com/GovindKumar04/pong-game">
+                        <p class="portfolio_link_text">Pong</p>
+                        <p class="portfolio_link_text">check out</p>
+                    </a>
+                </div>
+                <div class="img3">
+                    <a href="https://github.com/GovindKumar04/python">
+
+                        <p class="portfolio_link_text">Turtle-cross</p>
+                        <p class="portfolio_link_text">check out</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <section id="get_in_touch">
+
+            <!-- Showcase your projects and works here with images and descriptions -->
+            <h1 id="contact">Get In <span class="modeChange">Touch</span></h1>
+            <div>
+                <div class="contact_section">
+                    <p>Don't be shy!</p>
+                    <p>Feel free to get in touch with me. I am always open <br>
+                        to discuss new projects, creative idea or <br>
+                        oppurtunities to be a part of your vision.</p>
+                </div>
+                <div class="contact_section">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="cd1175c4-c526-4153-8e14-49100a4d8523">
+                        <div>
+                            <input id="f_name" name="First Name" class="white black name_input" type="text"
+                                placeholder="First Name" required>
+                            <input id="l_name" name="Last Name" class="white black name_input" type="text"
+                                placeholder="Last Name" required><br>
+                        </div class="white black">
+                        <div>
+                            <input class="white black" name="Email" id="email" type="email" placeholder="Your Email"
+                                required><br>
+                            <input class="white black" name="Subject" id="subject" type="text"
+                                placeholder="Your Subject" required><br>
+                            <input class="white black" id="message" name="Message" type="text"
+                                placeholder="Your Message"><br>
+                            <button class="white black" id="s_button" type="submit">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+    <abbr title=""></abbr>
+    </section>
+    <footer>
+        <div>
+            <a href="https://github.com/GovindKumar04?tab=repositories" target="_blank">
+                <img src="Icons/github.png" alt="github">
+            </a>
+            <a href="" target="_blank">
+                <img src="Icons/linkedin.png" alt="linkedin">
+            </a>
+            <a href="" target="_blank">
+                <img src="Icons/instagram.png" alt="instagram">
+            </a>
+        </div>
+        <div>
+            <p>&copy; 2024 Govind Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
